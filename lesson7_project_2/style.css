@@ -14,20 +14,24 @@ body{
 
 #overview{
         background-color: #2E51FF;
-        height: 1000px;
+       
 }
 
 #video{
         background-color: #333333;
-        height: 1000px;
+       
 }
 
 #team record{
         background-color: #1DA8FF;
-        height: 1000px;
+     
 }
 
 #footer{
         background-color: #ffffff;
-        height: 1000px;
+        
+}
+h1
+{
+        color:white;
 }

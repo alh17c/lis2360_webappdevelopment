@@ -5,9 +5,9 @@
 #navbar{
 	    width: 100%; /* as wide as container - make sure buttons don't exceed container width */
 	    /* reducing height hides the bottom of the buttons and the bottom rounded corners of buttons */
-	    height: 45px;
+	    height: 50px;
 	    overflow: hidden; /* necessary for tab style nav bar to hide bottom of buttons */
-	    margin-bottom: 0px; /* pushes page content down */
+	    margin-bottom: -20px; /* pushes page content down */
 }	
 
 /* horizontal menu bars are typically created using a styled unordered list. Here's how! */
@@ -19,8 +19,8 @@
 	    margin-left: 0px; /* controls space between buttons/tabs */
 } 
 #menu li a.button {
-	    background-color: #fcf3ae; /* button/tab color */
-	    color: #9b9744; /* font color */
+	    background-color: #ffffff; /* button/tab color */
+	    color: #2159C6; /* font color */
 	    font-size: 1em;
 	    text-decoration: none; /* removes the link underline */
 	    /* the padding define the size of the buttons */
@@ -28,12 +28,12 @@
 	    padding: 6px 20px 25px 20px; 	
 	    /* rounded corners turn buttons into tabs when bottom of button is hidden */
 	    border-radius: 12px; 
-	    border: solid 1px; /* 1-pixel border around buttons. */
+	    border: solid 2px; /* 1-pixel border around buttons. */
 }
 /* styles for the currently selected page should be different to make it stand out */
 /* also you want to discourage users from clicking the button for the current page */
 #menu li a.button.selected{
-	    background-color: #fff; /* matching the color of the content background color */
+	    background-color: #888; /* matching the color of the content background color */
 	    color: #000; /* font color */
 	    font-style: italic;
 }

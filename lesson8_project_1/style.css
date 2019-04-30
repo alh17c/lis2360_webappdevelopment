@@ -1,0 +1,37 @@
+
+
+
+body{
+        margin:0;
+        padding:0;
+}
+
+#splash{
+        height: 1000px;
+        background: url(lis_images/Amalie_Arena.jpg) no-repeat center top fixed;
+        background-size: cover;
+}
+
+#overview{
+        background-color: #2E51FF;
+       
+}
+
+#video{
+        background-color: #333333;
+       
+}
+
+#team record{
+        background-color: #1DA8FF;
+     
+}
+
+#footer{
+        background-color: #ffffff;
+        
+}
+h1
+{
+        color:white;
+}
